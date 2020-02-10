@@ -29,7 +29,7 @@ def nyc_pigeon_organizer(data)
         if !pigeon_list[name]
           pigeon_list[name] = {}
         end
-        if pigeon_list[name][attribute]
+        if !pigeon_list[name][attribute]
           pigeon_list[name][attribute] = []
         end  
         
@@ -37,6 +37,7 @@ def nyc_pigeon_organizer(data)
       end
     end
   end
+  pigeon_list
   
   # data.find do |
   # input HoHoA - [key attribute][key attr_values][value names]
