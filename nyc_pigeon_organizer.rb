@@ -25,8 +25,10 @@ def nyc_pigeon_organizer(data)
   
   data.each do |attribute,colors|
     colors.each do |color,names|
+      names.each do |name|
+        
       binding.pry
-      
+      end
     end
   end
   
