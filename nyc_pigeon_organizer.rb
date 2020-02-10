@@ -33,7 +33,7 @@ def nyc_pigeon_organizer(data)
           pigeon_list[name][attribute] = []
         end  
         
-      pigeon_list[name][attribute] << color.to_s
+      pigeon_list[name][attribute] << value.to_s
       end
     end
   end
