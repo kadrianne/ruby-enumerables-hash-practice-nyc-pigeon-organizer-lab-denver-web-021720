@@ -24,7 +24,7 @@ def nyc_pigeon_organizer(data)
   pigeon_list = {}
   
   data.each do |attribute,values|
-    colors.each do |value,names|
+    values.each do |value,names|
       names.each do |name|
         if !pigeon_list[name]
           pigeon_list[name] = {}
