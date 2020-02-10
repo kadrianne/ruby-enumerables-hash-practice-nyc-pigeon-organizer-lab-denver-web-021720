@@ -3,6 +3,9 @@ require "pry"
 
 def nyc_pigeon_organizer(data)
   pigeon_list = {}
+  
+  
+  
   # data.find do |
   # input HoHoA - [key attribute][key attr_values][value names]
   # output HoHoA - [key names][key attribute][value attr_values]
