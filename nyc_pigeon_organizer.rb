@@ -8,7 +8,7 @@ def nyc_pigeon_organizer(data)
   # loop through each color key and return name if
   if pigeon_list.find(data[:color].each_pair {|key,value| puts value}) == false
     pigeon_list
-  pigeon_list["Theo"] =  attributes.each{|key|puts key}
+  # pigeon_list["Theo"] =  attributes.each{|key|puts key}
   return pigeon_list
 end
 
