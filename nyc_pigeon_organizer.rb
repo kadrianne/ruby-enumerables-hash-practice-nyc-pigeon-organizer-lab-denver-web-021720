@@ -26,9 +26,9 @@ def nyc_pigeon_organizer(data)
   data.each do |attribute,colors|
     colors.each do |color,names|
       names.each do |name|
-        # if pigeon_list[name] !=
-        # pigeon_list[name] = {}
-        # end
+        if pigeon_list[name] !=
+        pigeon_list[name] = {}
+        end
         
         
       
