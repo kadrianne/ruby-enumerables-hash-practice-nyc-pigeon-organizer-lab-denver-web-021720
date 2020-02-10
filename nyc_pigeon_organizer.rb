@@ -1,5 +1,5 @@
 def nyc_pigeon_organizer(data)
-  pidgeon_list = {}
+  pigeon_list = {}
   # data.find do |
   # input HoHoA - [key attribute][key attr_values][value names]
   # output HoHoA - [key names][key attribute][value attr_values]
