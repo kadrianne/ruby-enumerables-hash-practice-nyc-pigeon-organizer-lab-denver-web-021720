@@ -4,7 +4,9 @@ require "pry"
 def nyc_pigeon_organizer(data)
   pigeon_list = {}
   
-  
+  data.each do |key,value|
+    binding.pry
+  end
   
   # data.find do |
   # input HoHoA - [key attribute][key attr_values][value names]
