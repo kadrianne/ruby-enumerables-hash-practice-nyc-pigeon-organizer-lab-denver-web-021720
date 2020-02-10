@@ -1,11 +1,11 @@
 def nyc_pigeon_organizer(data)
   pidgeon_list = {}
-  data.find do |
+  # data.find do |
   # input HoHoA - [key attribute][key attr_values][value names]
   # output HoHoA - [key names][key attribute][value attr_values]
   
-  colors = pigeon_data[:color].keys # .map {|sym| puts sym} # list of :color values
-  colors.# loop through each color key and return name if 
+  # colors = pigeon_data[:color].keys # .map {|sym| puts sym} # list of :color values
+  # loop through each color key and return name if 
 end
 
 # turn name values into keys
