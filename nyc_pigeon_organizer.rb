@@ -12,6 +12,7 @@ def nyc_pigeon_organizer(data)
   binding.pry
   if pigeon_list.find(data[:color].each_pair {|key,value| puts value}) == false
     pigeon_list
+  end
   # pigeon_list["Theo"] =  attributes.each{|key|puts key}
   return pigeon_list
 end
