@@ -29,6 +29,11 @@ def nyc_pigeon_organizer(data)
         # if pigeon_list[name] !=
         # pigeon_list[name] = {}
         # end
+        
+        
+        pigeon_list = {
+          
+        }
       end
     end
   end
